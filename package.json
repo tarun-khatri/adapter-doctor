@@ -1,0 +1,18 @@
+{
+  "name": "adapter-doctor",
+  "version": "0.1.0",
+  "description": "Audit every adapter in DefiLlama-Adapters for silent failures: zero TVL on latest block, throws, deprecated SDK signature, missing methodology.",
+  "license": "MIT",
+  "bin": {
+    "adapter-doctor": "./src/index.js"
+  },
+  "scripts": {
+    "scan": "node src/index.js scan",
+    "scan:sample": "node src/index.js scan --limit 50",
+    "scan:full": "node src/index.js scan"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {}
+}
