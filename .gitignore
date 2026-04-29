@@ -3,3 +3,4 @@ out/
 out-sample*/
 *.log
 .DS_Store
+config.bat
